@@ -1,7 +1,7 @@
 package org.xli.example
 
 /**
-  * 对象测试
+  * 单例对象测试
   */
 object IdFactory {
   private var counter = 0

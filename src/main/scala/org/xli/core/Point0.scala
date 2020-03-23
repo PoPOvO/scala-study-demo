@@ -1,4 +1,4 @@
-package org.xli.scala.core
+package org.xli.core
 
 class Point0(var x: Int = 0, var y: Int = 0) {
   /**

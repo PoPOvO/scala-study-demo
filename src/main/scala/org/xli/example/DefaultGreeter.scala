@@ -3,7 +3,7 @@ package org.xli.example
 /**
   * 默认Greet实现
   */
-class DefaultGreeter extends GreeterTrait {
+class DefaultGreeter extends GreeterTrait with Hello {
   override def greet(): Unit = {
     println("Greet!")
   }

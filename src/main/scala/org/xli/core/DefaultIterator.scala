@@ -1,4 +1,4 @@
-package org.xli.scala.core
+package org.xli.core
 
 /**
   * 默认Iterator实现

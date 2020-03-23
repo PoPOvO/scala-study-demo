@@ -1,4 +1,4 @@
-package org.xli.scala.core
+package org.xli.core
 
 trait Iterator[A] {
   // 定义一个String类型的字段

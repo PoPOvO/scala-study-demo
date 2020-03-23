@@ -1,5 +1,7 @@
 package org.xli.example
 
+import org.xli._
+
 object Main extends App {
   val ages = Seq(42, 778, 29, 64)
 
@@ -79,4 +81,12 @@ object Main extends App {
   val x: Float = 5 // 5.0
   val y: Int = 'R' // 82
   println("类型转换" , x , y)
+
+  /**
+    * 伴生对象
+    */
+  val area = new Circle(5).area
+  println("伴生对象", area)
+
+  core.printMsg("MMMM")
 }
